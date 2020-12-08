@@ -9,6 +9,7 @@ public class Sub {
     }
 
     public int calculate() {
+    	return a-b;
     }
 
 }

@@ -9,6 +9,7 @@ public class Add {
     }
 
     public int calculate() {
+    	return a+b;
     }
 
 }

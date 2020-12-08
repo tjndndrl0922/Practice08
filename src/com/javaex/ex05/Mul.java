@@ -9,6 +9,7 @@ public class Mul {
     }
 
     public int calculate() {
+    	return a*b;
     }
 
 }

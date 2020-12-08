@@ -12,9 +12,9 @@ public class SumApp {
 		String numLine = sc.nextLine();
 
 		//코드를 작성하세요
-		for(int i=0; i<numLine.length(); i++) {
-			
-			sum += (numLine.charAt(i) - '0');
+		String[] nArray = numLine.split(" ");
+		for(int i =0; i<nArray.length; i++) {
+			sum = sum + Integer.parseInt(nArray[i]);
 		}
 		
 		
